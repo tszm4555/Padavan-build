@@ -99,36 +99,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_CURL=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_GDUT_DRCOM=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_DOGCOM=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CLIENT=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CMD=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=n" >> .config
-
-echo "CONFIG_FIRMWARE_INCLUDE_TTYD=n" >> .config
         #########################################################################################
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
